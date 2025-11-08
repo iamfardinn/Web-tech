@@ -1,0 +1,64 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  margin: 0;
+}
+form {
+  background-color: #dddad2;
+  padding: 55px 65px;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #ccc;
+  width: 350px;
+}
+.donor-text{
+    color: rgb(211, 34, 34);
+   
+    font-weight:bolder
+    
+}
+.upper-section{
+     display :flex;
+     
+
+}
+
+.upper-section h5{
+    
+  margin: 4px;
+  padding: 4px;
+  font-size: 9px;
+}
+
+.labels{
+    
+    color: rgb(34, 34, 34);
+   padding: 40px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.small-text{
+font-size: 10px;
+}
+
+.para_style{
+    font-size: 11px;
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
+    margin-bottom: 1px;
+    
+}
+
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
