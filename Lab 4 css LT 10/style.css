@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:bisque; 
+}
+.box {
+    position: absolute; 
+    width: 200px;
+    height: 200px;
+ display: flex;
+    justify-content: center;
+    align-items: center;font-size: 20px;
+    color: white;
+    border: 3px solid #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.red {
+    background-color: red;
+    top: 100px;
+left: 100px;
+z-index: 1; 
+}
+
+.blue {
+    background-color: blue;
+    top: 150px;
+    left: 150px;
+            z-index: 2; 
+}
+
+
+.green {
+    background-color: green;
+         top: 200px;
+     left: 200px;
+    z-index: 3;
+}
