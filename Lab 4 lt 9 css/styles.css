@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height for demo */
+    gap: 0; /* No space between boxes to align properly */
+}
+
+.sidebar {
+    flex: 0 0 20%; /* Fixed 20% width, no shrink/grow */
+    background-color: #f0f8ff; /* Light blue background */
+    border: 2px solid #4682b4; /* Blue border */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 0 0 60%; /* Fixed 60% width */
+    background-color: #ffffff; /* White background */
+    border: 2px solid #000000; /* Black border */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ads-panel {
+    flex: 0 0 20%; /* Fixed 20% width */
+    background-color: #f5f5dc; /* Beige background */
+    border: 2px solid #daa520; /* Golden border */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
