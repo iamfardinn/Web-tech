@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteHub Restaurant Menu</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        header { background: #8B4513; color: white; padding: 20px; text-align: center; }
+        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
+        nav a { color: white; text-decoration: none; padding: 10px; }
+        main { display: flex; flex-wrap: wrap; }
+        section { flex: 3; padding: 20px; border-bottom: 2px solid #ddd; }
+        .daily-offers { flex: 1; background: #f9f9f9; padding: 20px; margin: 20px; border: 1px solid #ccc; }
+        article { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; }
+        img { width: 100px; height: 100px; object-fit: cover; margin-right: 10px; float: left; }
+        .back-to-top { font-size: 0.9em; color: #666; text-decoration: none; }
+        footer { background: #333; color: white; text-align: center; padding: 20px; }
+        .social-links a { color: white; margin: 0 10px; text-decoration: none; }
+        .chefs-special { background: #FFD700; padding: 15px; margin: 20px 0; border-radius: 5px; }
+    </style>
+</head>
+<body id="top">
+    <header>
+        <h1>TasteHub Restaurant</h1>
+        <p>Deliciousness Delivered Fresh Every Day!</p>
+        <nav>
+            <ul>
+                <li><a href="#starters">Starters</a></li>
+                <li><a href="#maincourse">Main Course</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="starters">
+            <h2>Starters</h2>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Bruschetta" alt="Fresh tomato bruschetta on toasted bread">
+                <strong>Classic Bruschetta</strong><br>
+                Toasted baguette topped with ripe tomatoes, basil, and olive oil.<br>
+                $8.99
+            </article>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Calamari" alt="Fried calamari rings with lemon">
+                <strong>Fried Calamari</strong><br>
+                Crispy calamari rings served with marinara sauce.<br>
+                $12.99
+            </article>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </section>
+        <section id="maincourse">
+            <h2>Main Course</h2>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Grilled+Salmon" alt="Grilled salmon fillet with vegetables">
+                <strong>Grilled Salmon</strong><br>
+                Fresh salmon fillet grilled with herbs and served with seasonal vegetables.<br>
+                $24.99
+            </article>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Steak" alt="Juicy ribeye steak with potatoes">
+                <strong>Ribeye Steak</strong><br>
+                12oz ribeye cooked to perfection with garlic mashed potatoes.<br>
+                $32.99
+            </article>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </section>
+        <aside class="daily-offers">
+            <h3>Daily Offers</h3>
+            <ul>
+                <li>20% off on Starters before 6 PM</li>
+                <li>Buy one Main Course, get Dessert half off</li>
+                <li>Happy Hour Drinks: $5 Cocktails</li>
+            </ul>
+            <a href="#">Book a Table</a>
+        </aside>
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Tiramisu" alt="Layered tiramisu with coffee">
+                <strong>Tiramisu</strong><br>
+                Rich layers of mascarpone, coffee-soaked ladyfingers, and cocoa.<br>
+                $7.99
+            </article>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Cheesecake" alt="New York style cheesecake slice">
+                <strong>New York Cheesecake</strong><br>
+                Creamy cheesecake with berry compote on graham cracker crust.<br>
+                $9.99
+            </article>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </section>
+        <div class="chefs-special">
+            <h3>Chef’s Special</h3>
+            <article>
+                <strong>Truffle Pasta</strong><br>
+                Handmade pasta with black truffles and parmesan. Limited availability.<br>
+                $28.99
+            </article>
+            <article>
+                <strong>Seared Scallops</strong><br>
+                Fresh scallops seared with butter and lemon zest.<br>
+                $26.99
+            </article>
+        </div>
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Margarita" alt="Classic margarita cocktail">
+                <strong>Classic Margarita</strong><br>
+                Tequila, lime juice, and triple sec with salt rim.<br>
+                $12.99
+            </article>
+            <article>
+                <img src="https://via.placeholder.com/100?text=Red+Wine" alt="Glass of red wine">
+                <strong>House Red Wine</strong><br>
+                Full-bodied red wine by the glass.<br>
+                $9.99
+            </article>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </section>
+    </main>
+    <footer>
+        <p>123 Flavor Street, Food City, FC 12345</p>
+        <p>Phone: (555) 123-4567 | Hours: Mon-Sun 11AM-10PM</p>
+        <p><a href="#" class="social-links">Facebook</a> | <a href="#" class="social-links">Instagram</a> | <a href="#" class="social-links">Twitter</a></p>
+        <p>&copy; 2025 TasteHub Restaurant | All Rights Reserved</p>
+        <a href="#top" class="back-to-top">Back to Top</a>
+        <br><a href="#">Book a Table</a>
+    </footer>
+</body>
+</html>
