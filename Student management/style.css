@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background: #ffffff;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.input-section {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.input-section label {
+    font-size: 28px;
+}
+
+#studentName {
+    width: 450px;
+    padding: 12px 15px;
+    font-size: 24px;
+    border: 2px solid #777;
+    border-radius: 4px;
+}
+
+#addBtn {
+    padding: 15px 35px;
+    font-size: 26px;
+    border: none;
+    border-radius: 8px;
+    background-color: #b7ddeb;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #a1cfe1;
+}
+
+.list-section h2 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+#studentList {
+    margin-top: 10px;
+}
+
+.student-row {
+    background: yellow;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.student-name {
+    font-size: 32px;
+}
+
+.action-btn {
+    padding: 12px 25px;
+    font-size: 24px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-btn {
+    background: #b7ddeb;
+    color: blue;
+}
+
+.delete-btn {
+    background: #b7ddeb;
+    color: red;
+}
+
+.highlight-section {
+    margin-top: 40px;
+}
+
+#highlightBtn {
+    padding: 18px 45px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #b7ddeb;
+    cursor: pointer;
+}
+
+#highlightBtn:hover {
+    background: #a1cfe1;
+}
+
+.highlighted {
+    background: yellow;
+}
